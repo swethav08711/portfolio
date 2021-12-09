@@ -313,7 +313,14 @@ header .navbar ul li a:hover {
   justify-content: center;
   flex-wrap: wrap;
 }
-
+.img_marping {
+  width: 70%;
+}
+.img_marping > img {
+  width: 100%;
+  margin-left: 15%;
+  margin-top: 20px;
+}
 .contact .row .content {
   flex: 1 1 30rem;
   padding: 4rem;
@@ -326,7 +333,9 @@ header .navbar ul li a:hover {
   margin: 2rem;
   margin-bottom: 4rem;
 }
-
+.contact_me {
+  margin-left: 36%;
+}
 .contact .row form .box {
   padding: 1.5rem;
   margin: 1rem 0;
@@ -387,7 +396,7 @@ header .navbar ul li a:hover {
   color: #fff;
 }
 .project_image {
-  width: 600px;
+  width: 100%;
 }
 
 .padding_para {
@@ -439,7 +448,7 @@ header .navbar ul li a:hover {
   }
 
   .about .row .counter .box {
-    width: 100%;
+    width: 80%;
   }
 
   .education .box-container .box {
